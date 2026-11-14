@@ -1,0 +1,51 @@
+3:"$Sreact.fragment"
+4:"/_next/static/chunks/2d5tkz0xsvz1t.js"
+5:"/_next/static/chunks/2km52kb_46f0n.js"
+6:I[39756,["$4","$5"],"default"]
+7:I[37457,["$4","$5"],"default"]
+c:"/_next/static/chunks/213qu7f_p-gn3.js"
+d:"/_next/static/chunks/0xxuzxt4lg8jc.js"
+e:"/_next/static/chunks/0um60xilfaz08.js"
+f:"/_next/static/chunks/01qinhog7vt1n.js"
+10:"/_next/static/chunks/0m1tak8d2vwvq.js"
+11:"/_next/static/chunks/3mg00_1porihq.js"
+12:I[98330,["$4","$5","$c","$d","$e","$f","$10","$11"],"DocsPage"]
+13:I[98330,["$4","$5","$c","$d","$e","$f","$10","$11"],"DocsTitle"]
+14:I[98330,["$4","$5","$c","$d","$e","$f","$10","$11"],"DocsDescription"]
+15:I[98330,["$4","$5","$c","$d","$e","$f","$10","$11"],"DocsBody"]
+16:I[47873,["$4","$5","$c","$d","$e","$f","$10","$11"],"default"]
+17:I[94157,["$4","$5","$c","$d","$e","$f","$10","$11"],"Heading"]
+18:I[2272,["$4","$5","$c","$d","$e","$f","$10","$11"],"CodeBlock"]
+24:"ViewportBoundary"
+25:I[97367,["$4","$5"],"$24"]
+26:"MetadataBoundary"
+27:I[97367,["$4","$5"],"$26"]
+28:"$Sreact.suspense"
+29:I[27201,["$4","$5"],"IconMark"]
+9:X
+9:C
+a:X
+b:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$","$L12",null,{"toc":[{"depth":2,"url":"#optionals","title":"Optionals"}],"full":true,"children":[["$","$L13",null,{"children":["Enums and optionals","$undefined"]}],["$","$L14",null,{"children":"The decisions behind enums and the optional type T?, which are built now."}],["$","$L15",null,{"children":[[["$","p",null,{"children":["Enums, ",["$","code",null,{"children":"match"}]," on their variants, guards, nested patterns and optionals (",["$","code",null,{"children":"T?"}],") are\nbuilt: see ",["$","$L16",null,{"href":"/docs/reference-enums","children":"Enums"}],", where the rules are stated. This page keeps\nthe decisions the owner made about them."]}],"\n",["$","section",null,{"className":"drh-step","children":[["$","div",null,{"className":"drh-prose","children":[["$","$L17",null,{"as":"h2","id":"optionals","children":"Optionals"}],["$","p",null,{"children":[["$","code",null,{"children":"T?"}]," is the optional type ",["$","code",null,{"children":"Optional<T>"}],": either a value (",["$","code",null,{"children":"Some"}],") or ",["$","code",null,{"children":"none"}],". The\nword ",["$","code",null,{"children":"none"}]," is both the \"returns nothing\" type and the empty optional."]}],["$","p",null,{"children":["Two decisions from the owner shape this part. A ",["$","code",null,{"children":"T"}]," wraps to a ",["$","code",null,{"children":"T?"}]," automatically\nwherever a ",["$","code",null,{"children":"T?"}]," is expected (",["$","code",null,{"children":"uint32? x = 5;"}],", ",["$","code",null,{"children":"return 5;"}],"), and the test for a\nmissing value is written in words, ",["$","code",null,{"children":"x has value"}]," and ",["$","code",null,{"children":"x is empty"}],", rather than\n",["$","code",null,{"children":"x == none"}],"."]}]]}],["$","div",null,{"className":"drh-code-col","children":["$","$L18",null,{"className":"shiki shiki-themes vitesse-light vitesse-dark","style":{"--shiki-light":"#393a34","--shiki-dark":"#dbd7caee","--shiki-light-bg":"#ffffff","--shiki-dark-bg":"#121212"},"tabIndex":"0","icon":"<svg viewBox=\"0 0 24 24\"><path d=\"M 6,1 C 4.354992,1 3,2.354992 3,4 v 16 c 0,1.645008 1.354992,3 3,3 h 12 c 1.645008,0 3,-1.354992 3,-3 V 8 7 A 1.0001,1.0001 0 0 0 20.707031,6.2929687 l -5,-5 A 1.0001,1.0001 0 0 0 15,1 h -1 z m 0,2 h 7 v 3 c 0,1.645008 1.354992,3 3,3 h 3 v 11 c 0,0.564129 -0.435871,1 -1,1 H 6 C 5.4358712,21 5,20.564129 5,20 V 4 C 5,3.4358712 5.4358712,3 6,3 Z M 15,3.4140625 18.585937,7 H 16 C 15.435871,7 15,6.5641288 15,6 Z\" fill=\"currentColor\" /></svg>","children":["$","code",null,{"children":[["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#AB5959","--shiki-dark":"#CB7676"},"children":"uint32?"}],["$","span",null,{"style":{"--shiki-light":"#393A34","--shiki-dark":"#DBD7CAEE"},"children":" age"}],["$","span",null,{"style":{"--shiki-light":"#999999","--shiki-dark":"#666666"},"children":";"}],["$","span",null,{"style":{"--shiki-light":"#A0ADA0","--shiki-dark":"#758575DD"},"children":"                 // none, until it gets a value"}]]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#AB5959","--shiki-dark":"#CB7676"},"children":"uint32?"}],["$","span",null,{"style":{"--shiki-light":"#393A34","--shiki-dark":"#DBD7CAEE"},"children":" found "}],["$","span",null,{"style":{"--shiki-light":"#999999","--shiki-dark":"#666666"},"children":"="}],["$","span",null,{"style":{"--shiki-light":"#2F798A","--shiki-dark":"#4C9A91"},"children":" 5"}],["$","span",null,{"style":{"--shiki-light":"#999999","--shiki-dark":"#666666"},"children":";"}],["$","span",null,{"style":{"--shiki-light":"#A0ADA0","--shiki-dark":"#758575DD"},"children":"           // 5 wraps to Some(5)"}]]}],"\n",["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#AB5959","--shiki-dark":"#CB7676"},"children":"uint32"}],["$","span",null,{"style":{"--shiki-light":"#393A34","--shiki-dark":"#DBD7CAEE"},"children":" n "}],["$","span",null,{"style":{"--shiki-light":"#999999","--shiki-dark":"#666666"},"children":"="}],["$","span",null,{"style":{"--shiki-light":"#393A34","--shiki-dark":"#DBD7CAEE"},"children":" found "}],["$","span",null,{"style":{"--shiki-light":"#1E754F","--shiki-dark":"#4D9375"},"children":"maybe"}],"$L19","$L1a","$L1b"]}],"\n","$L1c","\n","$L1d","\n","$L1e"]}]}]}]]}]],"$L1f"]}]]}],["$L20","$L21"],"$L22"]}],"p":"$@23","v":null,"s":"$a"}}]]
+2:[["children",{"s":{"n":"slug","t":"oc","k":"design-enums","s":[]},"h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]]}],"p":"$@8","v":"$9","s":"$a"},"c":"$Qb"}]]
+1:[["children",{"s":"docs","h":32,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L25",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L27",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$28",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Enums and optionals | Drachm"}],["$","meta","1",{"name":"description","content":"The decisions behind enums and the optional type T?, which are built now."}],["$","meta","2",{"name":"darkreader-lock","content":"true"}],["$","link","3",{"rel":"icon","href":"/icon.svg?icon.1z3_0jt8kh14m.svg","sizes":"any","type":"image/svg+xml"}],["$","$L29","4",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@2a","v":null,"s":"$a"}},"a":"$@2b","u":"$@2c","b":"A6yfVy_hAet7q-QtB_BrI"}
+2d:I[27262,["$4","$5","$c","$d","$e","$f","$10","$11"],"Walkthrough"]
+2e:I[97367,["$4","$5"],"OutletBoundary"]
+19:["$","span",null,{"style":{"--shiki-light":"#2F798A","--shiki-dark":"#4C9A91"},"children":" 0"}]
+1a:["$","span",null,{"style":{"--shiki-light":"#999999","--shiki-dark":"#666666"},"children":";"}]
+1b:["$","span",null,{"style":{"--shiki-light":"#A0ADA0","--shiki-dark":"#758575DD"},"children":"    // 5"}]
+1c:["$","span",null,{"className":"line"}]
+1d:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#1E754F","--shiki-dark":"#4D9375"},"children":"if"}],["$","span",null,{"style":{"--shiki-light":"#393A34","--shiki-dark":"#DBD7CAEE"},"children":" (found "}],["$","span",null,{"style":{"--shiki-light":"#AB5959","--shiki-dark":"#CB7676"},"children":"has value"}],["$","span",null,{"style":{"--shiki-light":"#393A34","--shiki-dark":"#DBD7CAEE"},"children":") { }     "}],["$","span",null,{"style":{"--shiki-light":"#A0ADA0","--shiki-dark":"#758575DD"},"children":"// the test in words"}]]}]
+1e:["$","span",null,{"className":"line","children":[["$","span",null,{"style":{"--shiki-light":"#1E754F","--shiki-dark":"#4D9375"},"children":"if"}],["$","span",null,{"style":{"--shiki-light":"#393A34","--shiki-dark":"#DBD7CAEE"},"children":" (age "}],["$","span",null,{"style":{"--shiki-light":"#AB5959","--shiki-dark":"#CB7676"},"children":"is empty"}],["$","span",null,{"style":{"--shiki-light":"#393A34","--shiki-dark":"#DBD7CAEE"},"children":") { }        "}],["$","span",null,{"style":{"--shiki-light":"#A0ADA0","--shiki-dark":"#758575DD"},"children":"// and the other one"}]]}]
+1f:["$","$L2d","design-enums",{}]
+20:["$","script","script-0",{"src":"/_next/static/chunks/0m1tak8d2vwvq.js","async":true}]
+21:["$","script","script-1",{"src":"/_next/static/chunks/3mg00_1porihq.js","async":true}]
+22:["$","$L2e",null,{"children":["$","$28",null,{"name":"Next.MetadataOutlet","children":"$@2f"}]}]
+2c:true
+a:300
+2f:null
+a:C
+2b:0
+8:"$undefined"
+2a:"$undefined"
+23:"$undefined"
